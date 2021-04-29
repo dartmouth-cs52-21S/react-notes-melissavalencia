@@ -2,7 +2,7 @@
 React Notes: a space to type and keep your notes! Plan your days out on them, keep reminders here, type out your grocery lists, etc. etc. the options are endless!
 *description*
 
-[deployed url](http://url-if-deployed-here)
+[deployed url](https://stupefied-keller-ca0fcd.netlify.app/)
 
 ## What Worked Well
 Once I got the hang of writing the arrow functions and making sure I was passing the correct data, it came together! The firebase implementation wasn't as difficult as I thought it was going to be. The methods that Immutable.js provides were also super useful and fairly easy to implement.
