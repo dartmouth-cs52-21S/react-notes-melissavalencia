@@ -1,13 +1,106 @@
 body, html {
-    font-family: "Roboto", sans-serif;
-    color:hotpink;
-    background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+    font-family: "Montserrat", sans-serif;
+    background-color: #f3e5cc;
     height: 100%;
 }
-.logo {
-    background-image: url('img/peanuts.jpg');
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
+.icon{
+    width: 25px;
+    height: 25px;
+    background-size: cover;
 }
+#drag{
+    background-image: url("https://static.thenounproject.com/png/1307159-200.png");
+    background-size: cover;
+    padding:5px;
+    transition: all 0.25s ease 0s;
+}
+#edit{
+    background-image: url("https://static.thenounproject.com/png/3653710-200.png");
+    background-size: cover;
+    padding:5px;
+    transition: all 0.25s ease 0s;
+}
+#delete{
+    background-image: url("https://static.thenounproject.com/png/3896196-200.png");
+    background-size: cover;
+    padding:5px;
+    transition: all 0.25s ease 0s;
+}
+#confirm{
+    background-image:url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgOTUuNDUzIDEwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgOTUuNDUzIDEwMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+PHBvbHlnb24gcG9pbnRzPSI5NC41ODcsMjcuNDggMzEuNjU3LDg2LjE1IDMxLjIxNyw4NS42OCAxOC44NDcsNzIuNDEgMC41NjYsNTIuODEgMTQuMTA2LDQwLjE5IDMyLjM4Nyw1OS43OSA4MS43NzYsMTMuNzQgICAiPjwvcG9seWdvbj48L2c+PC9nPjwvc3ZnPg==");
+    background-size: cover;
+    padding:5px;
+    transition: all 0.25s ease 0s;
+}
+.top-icons{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #99b8a5;
+    position: absolute;
+    padding: 10px;
+    border: 5px solid #f6fffa;
+}
+#edit-text{
+    font-size: 16px;
+    padding: 5px;
+    word-wrap: break-word;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #131414;
+}
+#normal-text{
+    font-size: 16px;
+    height:fit-content;
+    color: #131414;
+}
+.note-text{
+    font-size: 16px;
+    color: #131414;
+    word-wrap: break-word;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#input-bar{
+    display: flex;
+}
+#input-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    width: 200px;
+    background-color: #f6fffa;
+    border: 2px solid #f3a0d0;
+}
+#submit-button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #f3cbe2;
+    transition: all 0.5s ease 0s;
+    border: 2px solid #f3a0d0;
+}
+#submit-button:hover{
+    background-color: #f3a0d0 ;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    transform: scale(1.05);
+}
+#edit:hover,#drag:hover,#delete:hover,#confirm:hover{
+    cursor: pointer;
+    transition: all 0.25s ease 0s;
+    transform: scale(1.1);
+}
+
+
